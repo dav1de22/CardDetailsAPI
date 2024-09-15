@@ -1,6 +1,6 @@
-@CardDetailsAPI_HostAddress = http://localhost:5241
+@CardDetailsAPI_HostAddress = https://localhost:7083
 
-GET {{CardDetailsAPI_HostAddress}}/weatherforecast/
+POST {{CardDetailsAPI_HostAddress}}/api/CardDetails/extract-card-details/
 Accept: application/json
 
 ###

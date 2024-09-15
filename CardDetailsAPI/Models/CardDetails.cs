@@ -7,8 +7,6 @@
             public Dictionary<int, string> People { get; set; }
             public string Expiry { get; set; }
 
-
-            public string ImageFile { get; set; }
             public CardDetails()
             {
                 People = new Dictionary<int, string>();
